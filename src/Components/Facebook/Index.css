@@ -1,0 +1,119 @@
+.Header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+}
+
+
+
+heady{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    box-shadow: 20px;
+    border-bottom: 00.1px solid rgb(161, 161, 161);
+    /* position: sticky; */
+}
+.head1{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    position: relative;
+    left: 15px;
+}
+#search{
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    border: 0px;
+    background-color: rgb(231, 229, 229);
+    cursor: pointer;
+    margin-top: 5px;
+    position: relative;
+    left: 20px;
+
+}
+.head2{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 5px; */
+}
+#logo1{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;   
+}
+.head3{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hlast1, .hlast{
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.hlast1:hover{
+    background-color: lightgray;
+}
+.black{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(196,196, 196);
+    
+}
+.profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+#naam{
+    position: relative;
+    bottom: 7px;
+    font-weight: 450;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.black:hover{
+    padding: 1px;
+}
+.main{
+    height: 90%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+.box1{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(226, 226, 226);
+    overflow: scroll;
+    position: sticky;
+}

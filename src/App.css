@@ -1,0 +1,72 @@
+/* .App {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.Search-Box {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Search-Box input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.Search-Box2 {
+  height: 50%;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TypeOne {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TypeTwo {
+  height: 85%;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.searchBtnOne {
+  background-color: white;
+  width: 70px;
+  color: black;
+  border-width: 1;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.searchBtnTwo {
+  background-color: green;
+  width: 70px;
+  color: #ffffff;
+  border-width: 1;
+  font-size: 15px;
+  border-radius: 20px;
+} */

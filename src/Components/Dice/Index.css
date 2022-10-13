@@ -1,0 +1,183 @@
+.Mice{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: azure;
+}
+.Dice button{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.UP{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.1px solid black; */
+    flex-direction: column;
+}
+.Bech{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Roll{
+    animation: rotate 10s linear infinite;
+    width: 50px;
+    height: 50px;
+    background: black;
+    transform: rotate3d(1, 1, -1, 0deg);
+    transform-style: preserve-3d;
+}
+.Down{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Mice1{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.One{
+    height: 100px;
+    width: 200px;
+    background-color: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Two{
+    height: 100px;
+    width: 50px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mice2{
+    height: 100px;
+    width: 300px;
+    flex-direction: row;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Three{
+    height: 100px;
+    width: 200px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Four{
+    height: 100px;
+    width: 50px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mice3{
+    height: 200px;
+    width: 300px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Five{
+    height: 100px;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Six{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Mice4{
+    height: 100px;
+    width: 300px;
+    flex-direction: row;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Seven{
+    height: 100px;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Eight{
+    height: 100px;
+    width: 200px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@keyframes rotate {
+    0% { transform: rotate3d(1000, 1000.5, -1000, 0deg); }
+    100% { transform: rotate3d(1, 1.5, 1, 360deg); }
+  }
+  
+  .dice {
+    animation: rotate 10s linear infinite;
+    width: 50px;
+    height: 50px;
+    background: black;
+    transform: rotate3d(1, 1, -1, 0deg);
+    transform-style: preserve-3d;
+  }
+  
+  .side {
+    background: #f003;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .side-1 { transform: rotateX(000deg) translateZ(3.8vmin); background: #f00; }
+  .side-2 { transform: rotateY(270deg) translateZ(3.8vmin); background: #0f0; }
+  .side-3 { transform: rotateX(270deg) translateZ(3.8vmin); background: #00f; }
+  .side-4 { transform: rotateX(090deg) translateZ(3.8vmin); background: #ff0; }
+  .side-5 { transform: rotateY(090deg) translateZ(3.8vmin); background: #f0f; }
+  .side-6 { transform: rotateX(180deg) translateZ(3.8vmin); background: #0ff; }
